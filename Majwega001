@@ -1,0 +1,10 @@
+#using:
+index0='''Thank you so much for your email'''
+another=index0[1:-1]
+print(another)
+
+#Formatted strings
+first='John'
+last='Smith'
+msg=f'{first} [{last}] is a coder'
+print(msg)
